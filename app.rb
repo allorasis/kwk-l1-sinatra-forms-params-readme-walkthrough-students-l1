@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   post '/food' do
-    "My name is #{name}, and I love #{favorite_food"
+    "My name is #{name}, and I love #{favorite_food}."
   end
 end
