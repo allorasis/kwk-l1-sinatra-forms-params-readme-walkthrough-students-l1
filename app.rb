@@ -8,8 +8,8 @@ class App < Sinatra::Base
   
   post '/food' do
     params = {
-  :name => "Sam",
-  :favorite_food => "Green Eggs and Ham"
+  :name => "#{params[:name]}",
+  :favorite_food => "#{params[:favorite_food]}"
 }
 params.to_s
     "My name is #{params[:name]}, and I love #{params[:favorite_food]}."
