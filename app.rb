@@ -6,12 +6,12 @@ class App < Sinatra::Base
     erb :food_form
   end
   
-#   post '/food' do
-#     params.to_s
-#     params =
-#   :name => "Sam",
-#   :favorite_food => "Green Eggs and Ham"
-# }
-#     "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
-#   end
+  post '/food' do
+    params.to_s
+    params =
+  :name => "Sam",
+  :favorite_food => "Green Eggs and Ham"
+}
+    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+  end
 end
