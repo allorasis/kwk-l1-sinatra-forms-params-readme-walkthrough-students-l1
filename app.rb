@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   post '/food' do
-    "Hello World"
+    "My name is #{name}"
   end
 end
