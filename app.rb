@@ -11,6 +11,6 @@ class App < Sinatra::Base
   :name => name,
   :favorite_food => favorite_food
 }
-    "My name is #{name}, and I love #{favorite_food}."
+    "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
   end
 end
